@@ -1,0 +1,45 @@
+﻿@*
+/***************************************************************************************
+ * File Name    : UnitIndex.cshtml
+ * Description  : Displays a list of units in the Unit Master section.
+ * 
+ * Developer    : Aman Kala
+ * Created Date : August 6, 2025
+ * Last Modified: August 6, 2025
+ * Version      : 1.0.0
+ * 
+ * Revision History:
+ * -------------------------------------------------------------------------------------
+ * Date        | Developer     | Description
+ * -------------------------------------------------------------------------------------
+ * 2025-08-06  | Aman Kala     | Initial creation of UnitIndex view.
+ *
+ ****************************************************************************************/
+*@
+
+@{
+    ViewData["Title"] = "Unit Master";
+}
+
+<h2>Unit List</h2>
+
+<p>
+    <a href="@Url.Action("AddUnit", "Master")">Add New Unit</a>
+</p>
+
+<table>
+    <thead>
+        <tr>
+            <th>Unit Name</th>
+            <th>Unit Code</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Demo Unit</td>
+            <td>U001</td>
+            <td>Edit | Delete</td>
+        </tr>
+    </tbody>
+</table>

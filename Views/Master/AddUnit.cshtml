@@ -1,0 +1,39 @@
+﻿@*
+***************************************************************************************
+ * File Name    : AddUnit.cshtml
+ * Description  : View to create a new unit in the Unit Master section.
+ * 
+ * Developer    : Aman Kala
+ * Created Date : August 7, 2025
+ * Last Modified: August 7, 2025
+ * Version      : 1.0.0
+ * 
+ * Revision History:
+ * -------------------------------------------------------------------------------------
+ * Date        | Developer     | Description
+ * -------------------------------------------------------------------------------------
+ * 2025-08-07  | Aman Kala     | Initial creation of create unit view.
+ ***************************************************************************************
+*@
+
+@using EMP.Helper;
+@{
+    ViewData["Title"] = "Add Unit";
+}
+
+<h2>Create Unit</h2>
+
+<form asp-action="AddUnit" asp-controller="Master" method="post" enctype="multipart/form-data">
+    <label>Unit Name:</label>
+    <input type="text" name="unitName" />
+
+    <label>Upload (PDF only):</label>
+    <input type="file" name="file" />
+
+    <button type="submit">Submit</button>
+</form>
+
+<p>
+    <a href="@Url.Action("UnitIndex", "Master")">Back to List</a>
+</p>
+
