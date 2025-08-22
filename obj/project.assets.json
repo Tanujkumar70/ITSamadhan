@@ -8182,23 +8182,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\AMAN KALA\\.nuget\\packages\\": {},
+    "C:\\Users\\user\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\git\\EMP\\EMP\\EMP.csproj",
+      "projectUniqueName": "C:\\Users\\user\\OneDrive\\Desktop\\ITSamadhan\\EMP.csproj",
       "projectName": "EMP",
-      "projectPath": "D:\\git\\EMP\\EMP\\EMP.csproj",
-      "packagesPath": "C:\\Users\\AMAN KALA\\.nuget\\packages\\",
-      "outputPath": "D:\\git\\EMP\\EMP\\obj\\",
+      "projectPath": "C:\\Users\\user\\OneDrive\\Desktop\\ITSamadhan\\EMP.csproj",
+      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\user\\OneDrive\\Desktop\\ITSamadhan\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\AMAN KALA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -8207,6 +8207,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -8279,7 +8280,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

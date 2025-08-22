@@ -1,0 +1,32 @@
+﻿/* General body style */
+body {
+    background-color: #f8f9fa;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Navbar color (grey instead of blue) */
+.navbar {
+    background-color: #495057 !important; /* Dark Grey */
+}
+
+    .navbar .navbar-brand,
+    .navbar .nav-link {
+        color: #ffffff !important;
+    }
+
+/* Card headers (grey instead of blue/green/etc.) */
+.card-header {
+    background-color: #6c757d !important; /* Bootstrap Grey */
+    color: #fff !important;
+}
+
+/* Sidebar toggle button */
+.btn-primary {
+    background-color: #6c757d !important;
+    border-color: #6c757d !important;
+}
+
+    .btn-primary:hover {
+        background-color: #5a6268 !important;
+        border-color: #545b62 !important;
+    }

@@ -1,0 +1,53 @@
+﻿@{
+    ViewData["Title"] = "Settings";
+}
+
+<div class="container mt-4">
+    <h2 class="mb-4"><i class="fa fa-cog"></i> Settings</h2>
+
+    <div class="row">
+        <!-- Profile Settings -->
+        <div class="col-md-6 mb-3">
+            <div class="card">
+                <div class="card-header">Profile Settings</div>
+                <div class="card-body">
+                    <form>
+                        <div class="mb-3">
+                            <label class="form-label">Username</label>
+                            <input type="text" class="form-control" value="AdminUser" />
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Email</label>
+                            <input type="email" class="form-control" value="admin@example.com" />
+                        </div>
+                        <button type="submit" class="btn btn-primary">Save</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <!-- System Settings -->
+        <div class="col-md-6 mb-3">
+            <div class="card">
+                <div class="card-header">System Settings</div>
+                <div class="card-body">
+                    <form>
+                        <div class="mb-3">
+                            <label class="form-label">Theme</label>
+                            <select class="form-select">
+                                <option selected>Light</option>
+                                <option>Dark</option>
+                                <option>Grey</option>
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Notifications</label>
+                            <input type="checkbox" checked /> Enable Notifications
+                        </div>
+                        <button type="submit" class="btn btn-primary">Update</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
